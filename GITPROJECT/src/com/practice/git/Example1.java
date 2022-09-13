@@ -9,10 +9,8 @@ public class Example1 {
 	public static void main(String[] args) {
 		
 	   List<Integer> l = Arrays.asList(1,2,3,4);
-		Iterator<Integer> iterator = l.iterator();
-		
-		while(iterator.hasNext()){
-			System.out.println(iterator.next());
+		for(int a :l) {
+			System.out.println(a);
 		}
 	}
 
